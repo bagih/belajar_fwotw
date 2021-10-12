@@ -6,7 +6,11 @@
 // import 'package:bagih_wotw/w_fade_transition.dart';
 // import 'package:bagih_wotw/w_opacity.dart';
 // import 'package:bagih_wotw/w_page_view.dart';
-import 'package:bagih_wotw/w_table.dart';
+// import 'package:bagih_wotw/w_cliprrect.dart';
+// import 'package:bagih_wotw/w_table.dart';
+import 'package:bagih_wotw/w_fadeinimage.dart';
+// import 'package:bagih_wotw/w_fittedbox.dart';
+// import 'package:bagih_wotw/w_tooltip.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +26,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: TablePage(),
+          child: FadeInImagePage(),
         ),
       ),
     );
